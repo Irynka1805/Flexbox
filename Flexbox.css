@@ -1,0 +1,27 @@
+.flex-container {
+  	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	background-color: black;
+	width: 100%;
+	height: 600px;
+}
+.row {
+  	display: flex;
+  	flex-direction: row;
+  	flex-wrap: nowrap;
+}
+.flex {
+	flex: 1;
+}
+.column {
+  	display: flex;
+  	flex-direction: column;
+  	flex-wrap: nowrap;
+}
+.box3 {
+ 	flex: 0 0 auto;
+ 	width: 60%;
+ 	background: red; 
+ 	margin-right: 10px;
+}
