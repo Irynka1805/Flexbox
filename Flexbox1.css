@@ -1,0 +1,39 @@
+
+.flex-container {
+  display: flex;
+	flex-wrap: nowrap;
+  flex-direction: row;
+	background-color: #fff;
+	width: 600px;
+	height: 600px;
+}
+.flex {
+	width: 20%;
+}
+.column {
+  	display: flex;
+    flex-wrap: nowrap;
+  	flex-direction: column;
+  	justify-content: flex-start;
+    margin-right: 20px;
+}
+.box {
+    width: 100%;
+    margin: 10px;
+}
+.box1 {
+  background-color: #790000; 
+  height: 250px;
+}
+.box2 {
+  background-color: #f06eaa;
+  height: 100px; 
+}
+.box3 {
+  background-color: #fdc689;
+  height: 200px;   
+}
+.box4 {
+  background-color: orange;
+  height: 300px;   
+}
