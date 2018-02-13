@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	display: flex;
+	width: 50%;
+	height: 600px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+.box {
+	background-color: #8dc63f;
+	margin: 10px;
+	border: 5px solid #000;
+	border-radius: 5px;
+	
+}
+.box1 {
+	width: 10%;
+}
+.box2 {
+	width: 60%;
+}
+.box3 {
+	width: 20%;
+}
