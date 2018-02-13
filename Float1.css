@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+.column {
+  width: 18%;
+  float: left;
+}
+.box {
+  margin: 10px;
+}
+.box1 {
+  background-color: #790000; 
+  height: 250px;
+}
+.box2 {
+  background-color: #f06eaa;
+  height: 100px; 
+}
+.box3 {
+  background-color: #fdc689;
+  height: 200px;   
+}
+.box4 {
+  background-color: orange;
+  height: 300px;   
+}
